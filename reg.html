@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Database</title>
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+<nav>
+        <h1 class="header">Practical application of database</h1> <br>
+    </nav>
+    <main>
+    <form action="./reg.html" method="POST" autocomplete="on" accept-charset="">
+            <fieldset>
+                <legend>Register</legend>
+                <div class="form-group">
+                    <label for="formGroupExampleInput">First name</label>
+                    <input type="text" place  name="fname" maxlength="20" class="form-control text-entry" id="formGroupExampleInput">
+                    <div><span class='errmsg'></div>
+                  </div>
+                  <div class="form-group">
+                    <label for="formGroupExampleInput2">Last name</label>
+                    <input type="text" name="lname" maxlength="20" class="form-control text-entry" id="formGroupExampleInput2">
+                    <div><span class='errmsg'></span></div>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" name="email" maxlength="35" class="form-control text-entry" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div><span class='errmsg'></span></div>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" name="password" class="form-control text-entry" id="exampleInputPassword1">
+                    <div><span class='errmsg'></span></div>
+
+                  </div>
+                    <br><button type="submit" name="regbtn" class="btn btn-primary">Submit</button>   
+            </fieldset>
+        </form> 
+        <div class="notyet">
+        <p>Already have an account? <a href="./index.html">Log In here</a></p>       
+    </div>
+    

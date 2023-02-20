@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Details</title>
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div>
+        <center><h4>Change Your Details</h4></center>
+    </div>
+    <div>
+    <form action="./editdetails.html" method="POST" autocomplete="on" accept-charset="">
+       <table>
+       <tr>
+            <td class="detailgap">First Name: </td>
+            <td><input class="editinput" name="fname" value="John" type="text"></td>
+        </tr>
+        <tr>
+            <td class="detailgap">Last Name: </td>
+            <td><input class="editinput" name="lname" value="Doe" type="text"></td>
+        </tr><br>
+        <tr>
+            <td class="detailgap">Email: </td>
+            <td><input class="editinput" name="lname" value="Johndoe@gmail.com" type="text"></td>
+        </tr>
+        <tr>
+            <td class="detailgap">Password: </td>
+            <td><input class="editinput" name="password" value="12345678" type="text"></td>
+        </tr>
+       </table>
+            <div class="bttns">
+            <button type="submit" name="updatebtn">Update Details</button>
+            </div>
+            <center>Updated!</center>
+       </form>
+    </div>
+    </div>
+</body>
+</html>
+<div class="deletesection">
+            <h4 style="text-decoration: underline;" class="">Delete Account</h4>
+            <p>Do you wish to permanently delete this account? If you click the button below, your account will be deleted from the database and there will be no way to restore your account.</p>
+            <a class="editacct"  href="./editdetails.html"><button class="same redbttn" >Delete Account</button></a>
+</div>
